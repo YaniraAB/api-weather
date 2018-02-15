@@ -15,9 +15,10 @@
       <div class="row">
         <div class="col s12 m6">
           <div class="card blue-grey darken-1">
-            <div class="card-content white-text gray">
+            <div id="container-day" class="card-content white-text gray">
               <p class="text-title card-title center">Clima</p>
               <img class="img-icon" src="assets/images/30.png" alt="icono-clima">
+              <p class="center temp" id="temperature"></p>
               <div class="row">
                 <div class="col s6 m6 l6">
                   <p>Día:</p>
@@ -51,8 +52,54 @@
                 </div>
               </div>
             </div>
-            <div class="card-action center">
-              <a href="#">Predicción de la semana</a>
+            <div class="btn-week card-action center">
+              <a class="btn-week" id="week-btn" href="#">Predicción de la semana</a>
+            </div>
+            <div id="container-week" class="hiden">
+              <div class="row">
+                <div class="col s6 m6 l6">
+                  <p class="center item">Lunes:</p>
+                </div>
+                <div class="col s6 m6 l6">
+                  <p class="item" id="monday">--</p>
+                </div>
+                <div class="col s6 m6 l6">
+                  <p class="center item">Martes:</p>
+                </div>
+                <div class="col s6 m6 l6">
+                  <p class="item" id="tuesday">--</p>
+                </div>
+                <div class="col s6 m6 l6">
+                  <p class="center item">Miércoles:</p>
+                </div>
+                <div class="col s6 m6 l6">
+                  <p class="item" id="wednesday">--</p>
+                </div>
+                <div class="col s6 m6 l6">
+                  <p class="center item">Jueves:</p>
+                </div>
+                <div class="col s6 m6 l6">
+                  <p class="item" id="thursday">--</p>
+                </div>
+                <div class="col s6 m6 l6">
+                  <p class="center item">Viernes:</p>
+                </div>
+                <div class="col s6 m6 l6">
+                  <p class="item" id="friday">--</p>
+                </div>
+                <div class="col s6 m6 l6">
+                  <p class="center item">Sábado:</p>
+                </div>
+                <div class="col s6 m6 l6">
+                  <p class="item" id="saturday">--</p>
+                </div>
+                <div class="col s6 m6 l6">
+                  <p class="center item">Domingo:</p>
+                </div>
+                <div class="col s6 m6 l6">
+                  <p class="item" id="sunday">--</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
