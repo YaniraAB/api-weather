@@ -1,6 +1,18 @@
 # WEATHER
 
-> Recuerda seguir siempre esta [guía de estilos](https://github.com/Laboratoria/js-style-guide/)
+***
 
-¿Has visto que los sistemas operativos móviles vienen con una APP de predicción del clima? ¡Vamos a hacer la nuestra! Para ello, usaremos la API de Dark Sky y esperemos llegues a usar un API de imágenes como Flickr, Unsplash u otro. A continuación te dejamos unos slides con algunos recursos y guías del flujo de la app. Recuerda que no es necesario que sigas el diseño al pie de la letra, eres completamente libre de adaptarlo a tus gustos.
+## Se utilizó
+
+`HTML`   `CSS` `Framework Materialize` `jQuery` `API Dark Sky` `AJAX` 
+
+
+## Descripción
+
+Se trata de realizar un App de predicción del clima aprovechando el API Dark Sky y los recursos enseñados
+a lo largo de bootcamp.
+
+`Nota:`
+
+*Este trabajo se ha subido a gh-pages [aquí](https://yaniraab.github.io/api-weather/).
 
