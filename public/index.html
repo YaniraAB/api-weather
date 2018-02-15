@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <!--Import materialize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-weather">
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text gray">
+              <p class="text-title card-title center">Clima</p>
+              <img class="img-icon" src="assets/images/30.png" alt="icono-clima">
+              <div class="row">
+                <div class="col s6 m6 l6">
+                  <p>Día:</p>
+                </div>
+                <div class="col s6 m6 l6">
+                  <p id="day-type">--</p>
+                </div>
+                <div class="col s6 m6 l6">
+                  <p>Viento:</p>
+                </div>
+                <div class="col s6 m6 l6">
+                  <p id="wind">--</p>
+                </div>
+                <div class="col s6 m6 l6">
+                  <p>Humedad:</p>
+                </div>
+                <div class="col s6 m6 l6">
+                  <p id="humidity">--</p>
+                </div>
+                <div class="col s6 m6 l6">
+                  <p>Índice UV:</p>
+                </div>
+                <div class="col s6 m6 l6">
+                  <p id="uv-index">--</p>
+                </div>
+                <div class="col s6 m6 l6">
+                  <p>Presión:</p>
+                </div>
+                <div class="col s6 m6 l6">
+                  <p id="pressure">--</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-action center">
+              <a href="#">Predicción de la semana</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Materialize  Jquery JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

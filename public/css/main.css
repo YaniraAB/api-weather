@@ -1,0 +1,17 @@
+.text-title {
+  font-size: 20px;
+}
+
+body {
+  background-image: url(../assets/images/cielo.jpg);
+}
+
+.gray {
+  background-color: rgba(29, 29, 29, 0.6);
+  border-radius: 5px;
+}
+
+.img-icon {
+  display: block;
+  margin: auto;
+}
